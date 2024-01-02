@@ -40,12 +40,12 @@ const Header: React.FC = () => {
           {/* <CircleUser fill='lightgray' color='gray' strokeWidth={'1.25px'} />
            */}
            <Avatar sx={{ width: 28, height: 28 }}/>
-          <h2 className='text-lg'>Mahesh Patil</h2>
+          <h2 className=' font-medium'>Mahesh Patil</h2>
         </div>
         <div>
           <ChevronDown onClick={()=>{ setOpen(!open) }} className={`cursor-pointer ${open && 'rotate-180'} transition-all duration-300`} />
           
-            <div className={`w-48 ${open ? ' h-fit overflow-visible ' : 'h-0'} overflow-hidden bg-white shadow-sm -left-2 rounded-md top-12 absolute flex flex-col`}>
+            <div className={`w-48 ${open ? ' h-fit overflow-visible ' : 'h-0'} overflow-hidden bg-white shadow-md -left-2 rounded-md top-12 absolute flex flex-col`}>
               <p className='cursor-pointer px-6 py-2 bg-gray-100'>Menu 1</p>
               <p className='cursor-pointer px-6 py-2 hover:bg-gray-50 '>Menu 1</p>
               <p className='cursor-pointer px-6 py-2 hover:bg-gray-50'>Menu 1</p>
